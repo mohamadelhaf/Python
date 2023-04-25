@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_team_coworkers",
+  "info": {
+    "displayName": "Coworkers"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Job": {
+      "type": "string",
+      "required": true
+    },
+    "Picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
